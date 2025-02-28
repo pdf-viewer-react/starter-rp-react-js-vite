@@ -59,7 +59,7 @@ Once the example project is running, you can explore the source code to see how 
 ```jsx
 import { RPProvider, RPDefaultLayout, RPPages } from "@pdf-viewer/react";
 
-export const AppPDFViewer = (props) => {
+export const AppPdfViewer = (props) => {
   const { showToolbar = true, providerProps, defaultLayoutProps } = props;
 
   return (
@@ -85,7 +85,7 @@ export const AppPDFViewer = (props) => {
 
 ```jsx
 import { RPConfig } from "@pdf-viewer/react";
-import { AppPDFViewer } from "./components/AppPDFViewer";
+import { AppPdfViewer } from "./components/AppPdfViewer";
 
 function App() {
   return (
@@ -94,16 +94,16 @@ function App() {
         <h1>RP Starter Toolkit: Vite + React</h1>
         <br />
         <h2>Default Toolbar</h2>
-        <AppPDFViewer />
+        <AppPdfViewer />
         <h2>Without Toolbar</h2>
-        <AppPDFViewer
+        <AppPdfViewer
           showToolbar={false}
           defaultLayoutProps={{
             style: { width: "100%", height: "550px" },
           }}
         />
         <h2>Mobile</h2>
-        <AppPDFViewer
+        <AppPdfViewer
           defaultLayoutProps={{
             style: { width: "500px" },
           }}

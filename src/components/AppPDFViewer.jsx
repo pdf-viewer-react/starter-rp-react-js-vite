@@ -4,7 +4,7 @@ import {
   RPPages,
 } from "@pdf-viewer/react";
 
-export const AppPDFViewer = (props) => {
+export const AppPdfViewer = (props) => {
   const { showToolbar = true, providerProps, defaultLayoutProps } = props;
 
   return (
