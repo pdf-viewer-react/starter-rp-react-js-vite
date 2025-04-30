@@ -1,5 +1,7 @@
 # React PDF Starter Toolkit in React.js, JavaScript and Vite
 
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github.com/pdf-viewer-react/starter-rp-react-js-vite)
+
 Welcome to the React PDF Starter Toolkit! This repository provides a comprehensive guide on integrating React PDF with React, JavaScript and Vite. It showcases how React PDF can be integrated and rendered as part of a React.js project.
 
 ## Table of Contents
@@ -127,6 +129,10 @@ For more examples, please refer to the `src/App.jsx` file in this repository:
 _Remark: If you would like more examples, feel free open an issue._
 
 For more configurations, please check the [documentation](https://docs.react-pdf.dev) site.
+
+## Meta
+- Homepage: [https://www.react-pdf.dev](https://www.react-pdf.dev)
+- Docs: [https://docs.react-pdf.dev](https://docs.react-pdf.dev)
 
 ---
 
